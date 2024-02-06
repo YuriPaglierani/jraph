@@ -16,6 +16,7 @@
 
 
 from jraph._src.graph import GraphsTuple
+from jraph._src.graph import GraphsExtendedTuple
 from jraph._src.models import AggregateEdgesToGlobalsFn
 from jraph._src.models import AggregateEdgesToNodesFn
 from jraph._src.models import AggregateNodesToGlobalsFn
@@ -76,7 +77,7 @@ __version__ = "0.0.6.dev0"
 
 __all__ = ("ArrayTree", "DeepSets", "GraphConvolution", "GraphMapFeatures",
            "InteractionNetwork", "RelationNetwork", "GraphNetGAT", "GAT",
-           "GraphsTuple", "GraphNetwork", "NodeFeatures",
+           "GraphsTuple", "GraphsExtendedTuple", "GraphNetwork", "NodeFeatures",
            "AggregateEdgesToNodesFn", "AggregateNodesToGlobalsFn",
            "AggregateEdgesToGlobalsFn", "AttentionLogitFn", "AttentionReduceFn",
            "GNUpdateEdgeFn", "GNUpdateNodeFn", "GNUpdateGlobalFn",
